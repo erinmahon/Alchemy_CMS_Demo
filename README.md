@@ -2,16 +2,28 @@
 
 ![alchemy_logo](https://cloud.githubusercontent.com/assets/14220315/12629971/25d36424-c518-11e5-9f42-69579a716d5d.png)
 
-
 What Alchemy CMS Accomplishes:
 
 The Alchemy CMS Gem is a Content Management System (CMS) Framework for Rails. 
 
-While Alchemy CMS has many powerful features, the overall accomplishment of the Gem is that it creates a user centric backend interface to the rails application.  It comes with an extreme flexible content storing architecture
+While Alchemy CMS has many powerful features, the overall accomplishment of the Gem is that it creates a user centric backend interface to the rails application.  
+
+<img width="1377" alt="screen shot 2016-01-27 at 5 10 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630121/ded76a9c-c518-11e5-8ac6-faadf1ac8342.png">
+
+
+<img width="1377" alt="screen shot 2016-01-27 at 5 10 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630121/ded76a9c-c518-11e5-8ac6-faadf1ac8342.png">
+
+<img width="1329" alt="screen shot 2016-01-27 at 11 13 45 am" src="https://cloud.githubusercontent.com/assets/14220315/12630059/919fb9aa-c518-11e5-85f4-85e88d0fb609.png">
+
+<img width="797" alt="screen shot 2016-01-27 at 5 07 08 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630082/ae27ed72-c518-11e5-9427-850c21199edc.png">
 
 Simple stated, it enables a web developer to create a custom website that can be maintained by a non-developer. The web developer is in full control of the website's features, markup and styling, and the end user actually manages the content of the site.
 
 This easy to use and intuitive interface is a powerful tool. Some key features including an image gallery
+
+
+
+It comes with an extreme flexible content storing architecture
 
 1) Concept & Structure - Breakdown the Layout into Cells, Elements, and Essences
 
