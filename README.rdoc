@@ -1,8 +1,5 @@
 #Alchemy CMS Gem
 
-
-<img>![alchemy_logo](https://cloud.githubusercontent.com/assets/14220315/12628466/4d75c97e-c511-11e5-9be4-ed18cf5b55dd.png)</img>
-
 What Alchemy CMS Accomplishes:
 
 The Alchemy CMS Gem is a Content Management System (CMS) Framework for Rails. 
@@ -11,18 +8,9 @@ While Alchemy CMS has many powerful features, the overall accomplishment of the 
 
 Simple stated, it enables a web developer to create a custom website that can be maintained by a non-developer. The web developer is in full control of the website's features, markup and styling, and the end user actually manages the content of the site.
 
-This easy to use and intuitive interface is a powerful tool. Some key features include:
-
-
-
-
-
-
-
+This easy to use and intuitive interface is a powerful tool. Some key features including an image gallery
 
 1) Concept & Structure - Breakdown the Layout into Cells, Elements, and Essences
-
-![alchemycms_core_concepts](https://cloud.githubusercontent.com/assets/14220315/12629203/d097b7ba-c514-11e5-99dd-4f9a6136e07c.png)
 
 When working with Alchemy CMS the very first thing the webdeveloper conceptually does is splitting the website´s layout into different types (called page layouts).
 
@@ -58,6 +46,7 @@ The following parameters are available for the installer:
 
 —database=sqlite3
 —scm=git/svn
+
 The installer creates a database, migrates the tables and also seeds them. After finishing, your application is ready to start!
 
 3.2 Install into an existing Rails application
