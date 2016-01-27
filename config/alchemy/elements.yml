@@ -32,7 +32,7 @@
   - name: text
     type: EssenceText
     default: This is my blog. It's awesome.
-    
+
 # Blog Post Element
 # Contains image, date, title, author, text attributes
 # The title is represented by blog_post_title
@@ -59,6 +59,31 @@
   - name: blog_post_content
     type: EssenceRichtext
 
+# The ‘categories block’ has a headline and a list of available categories.
+
+# The categories_headline is represented by an EssenceText. 
+# In the backend the user should be able to add categories easily and dynamically. 
+# Thats the reason why we choose the available_contents option.
+
+# Its important to copy the definition of category below contents to available_contents. 
+# Besides this, we also make the EssenceText deletable and linkable via settings.
+
+- name: categories_block
+  contents:
+  - name: categories_headline
+    type: EssenceText
+    default: Categories
+  - name: category
+    type: EssenceText
+    settings:
+      deleteable: true
+      linkable: true
+  available_contents:
+  - name: category
+    type: EssenceText
+    settings:
+      deletable: true
+      linkable: true
 
 
 
