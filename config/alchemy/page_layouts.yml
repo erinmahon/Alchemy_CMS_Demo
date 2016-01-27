@@ -11,6 +11,6 @@
 # The autogenerate attribute allows to define elements 
 # which will be generated automatically, when the user creates a new page in backend.
 - name: blog
-  cells: [blog_column, right_side_bar]
+  cells: [blog_column, left_side_bar]
   elements: [blog_title, blog_post, categories_block]
   autogenerate: [blog_column, blog_title]

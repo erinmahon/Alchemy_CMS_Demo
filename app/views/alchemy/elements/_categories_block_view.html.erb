@@ -1,8 +1,10 @@
-<%- cache(element) do -%>
-  <%= element_view_for(element) do |el| -%>
-    <h2><%= el.render :categories_headline %></h2>
-    	<%- element.contents.where(name: ['category']).each do |content| -%>
-      <h4><%= render_essence_view(content) %></h4>
-    <%- end -%>
-  <%- end -%>
-<%- end -%>
+<div id="categories">
+	<%- cache(element) do -%>
+	  <%= element_view_for(element) do |el| -%>
+	    <h2><%= el.render :categories_headline %></h2>
+	    	<%- element.contents.where(name: ['category']).each do |content| -%>
+	      <h4><%= render_essence_view(content) %></h4>
+	    <%- end -%>
+	  <%- end -%>
+	<%- end -%>
+</div>

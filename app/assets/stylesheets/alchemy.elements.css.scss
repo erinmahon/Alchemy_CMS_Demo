@@ -70,10 +70,12 @@ small {
   padding: 4px;
   max-height: 100%;
 }
+
 img {
   width: 100%;
 }
-#right_side_bar {
+
+#left_side_bar {
   background-color: rgba(199,82,40, 0.8);
   width: 20%;
   float: right;
@@ -84,12 +86,32 @@ img {
   margin: 2%;
   font-weight: normal;
   text-align: center;
+  min-width: 150px;
+}
+
+@media screen and (max-width: 767px) {
+  #blog_post {
+    position: relative;
+    float: left;
+    width: 90%;
+  }
+  #left_side_bar {
+    position: relative;
+    float: left;
+    width: 90%;
+  }
 }
 
 h2 {
-  font-size: 1.5em;
+font-size: 1.5em;
+font-weight: normal;
 }
 
 h4 {
-  font-size: 1em;
+font-size: 1em;
+font-weight: normal;
+}
+
+#categories {
+  width: 95%;
 }

@@ -6,6 +6,6 @@
 - name: blog_column
   elements: [blog_post]
 
-- name: right_side_bar
+- name: left_side_bar
   elements: [categories_block]
  
