@@ -67,49 +67,49 @@ A content is the smallest part in Alchemy and refers to one of the essence-types
 
 The installing of Alchemy CMS is very easy. You just need to run the gem command.
 
-gem install alchemy_cms
+$ gem install alchemy_cms
 
 You now have the newest Alchemy CMS gem installed on your system!
 
-3.1 Create a new application
+<h4>Create a new application</h4>
+
 The gem provides an executable file that can automagically create new rails applications with a pre-configured Alchemy CMS engine. While the installation process you will get asked about your local development environment. Just follow the instructions.
 
-alchemy new YOUR_APP_NAME
-The following parameters are available for the installer:
-
-—database=sqlite3
-—scm=git/svn
+$ alchemy new YOUR_APP_NAME
 
 The installer creates a database, migrates the tables and also seeds them. After finishing, your application is ready to start!
 
-3.2 Install into an existing Rails application
+<h4>Install into an Existing Rails Application</h4>
 If you already have an existing Rails application, you can require the Alchemy CMS gem in your app.
 
-Just add this line to your Gemfile.
+Add these Gems to Gemfile.
 
-gem 'alchemy_cms', '~>2.1'
+gem 'alchemy_cms'
+gem 'alchemy-devise'
+
 Since Alchemy CMS is a mountable engine, you need to define the mountpoint in your config/routes.rb file.
 
 MyApp::Application.routes.draw do
   mount Alchemy::Engine => '/'
 end
+
 You can mount Alchemy on every route you want. pages, cms, typo3, what ever you want. Most of the time you go with the root route.
 
 Now you need to run bundler for installing the dependencies.
 
-bundle install
+$ bundle install
 It´s recommended to create the folders Alchemy CMS needs.
 
-rails generate alchemy:scaffold
+$ rails generate alchemy:scaffold
 Copy the database migration files to your application.
 
-rake alchemy:install:migrations
+$rake alchemy:install:migrations
 Migrate the database to get the table structure.
 
-rake db:migrate
+$rake db:migrate
 Seed the database with initial data.
 
-rake alchemy:db:seed
+$rake alchemy:db:seed
 You´re done! Alchemy is now available in your Rails project!
 
 4 Running Alchemy CMS!
@@ -118,11 +118,13 @@ Now that you have Alchemy CMS successfully installed, let’s move on by creatin
 
 You just need to start a local ruby server on your development machine.
 
-cd YOUR_APP_NAME && rails s
-Open a browser window and navigate to http://localhost:3000. You will be greeted with a screen that is prompting you to create the first user.
+$ cd YOUR_APP_NAME && rails s
+Open a browser window and navigate to http://localhost:3000. 
 
-Congratulations, you can now access the backend!
+You will be greeted with a screen that is prompting you to create the first user.
 
 <img width="1329" alt="screen shot 2016-01-27 at 11 13 45 am" src="https://cloud.githubusercontent.com/assets/14220315/12630059/919fb9aa-c518-11e5-85f4-85e88d0fb609.png">
+
+Congratulations, you can now access the backend!
 
 <img width="797" alt="screen shot 2016-01-27 at 5 07 08 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630082/ae27ed72-c518-11e5-9427-850c21199edc.png">
