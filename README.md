@@ -53,7 +53,8 @@ This easy to use and intuitive interface is a powerful tool.
 <h3>Define Cells & Elements</h3>
 
 After that the developer will look deeper to the content and will perhaps split the pages into cells. Cells can be rendered on page-layouts and are acting as containers for elements. More about Cells »
-3) Define Page Layout
+
+<h3> Define Page Layout</h3>
 
 In any case the developer splits the content into elements. That means grouping the smallest parts of the website (the contents). Elements are containers for essences (called contents) and can be rendered on page-layouts or in cells. More about Elements »
 
@@ -61,9 +62,9 @@ Every page which is structurally different to other, should get its own page-lay
 
 A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about Essences »
 
-4) Generate Partial Views for each Cell & Element
-5) Customize Partial Views for each Cell & Element
-6) Embed Cells & Elements into Layout Pages
+<h3> Generate Partial Views for each Cell & Element </h3>
+<h3> Customize Partial Views for each Cell & Element </h3>
+<h3> Embed Cells & Elements into Layout Pages </h3>
 
 <h1>How to Install the Alchemy CRM Gem:</h1>
 
