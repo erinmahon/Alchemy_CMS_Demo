@@ -44,27 +44,27 @@ This easy to use and intuitive interface is a powerful tool.
 <hr>
 <ol>
 
-<h3>Concept & Structure - Breakdown the Layout into Cells, Elements, and Essences</h3>
+<li><h4>Concept & Structure - Breakdown the Layout into Cells, Elements, and Essences</h4></li>
 
 ![alchemycms_core_concepts](https://cloud.githubusercontent.com/assets/14220315/12630752/ee70a272-c51b-11e5-8677-3c641aa3cfc6.png)
 
-<blockquote>When working with Alchemy CMS the very first thing the webdeveloper conceptually does is splitting the website´s layout into different types (called page layouts). Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about PageLayouts »</blockquote>
+When working with Alchemy CMS the very first thing the webdeveloper conceptually does is splitting the website´s layout into different types (called page layouts). Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties.
 
-<h3>Define Cells & Elements</h3>
+<h4>Define Cells & Elements</h4>
 
-After that the developer will look deeper to the content and will perhaps split the pages into cells. Cells can be rendered on page-layouts and are acting as containers for elements. More about Cells »
+After that the developer will look deeper to the content and will perhaps split the pages into cells. Cells can be rendered on page-layouts and are acting as containers for elements. More about <a href="">Cells</a>
 
-<h3> Define Page Layout</h3>
+In any case the developer splits the content into elements. That means grouping the smallest parts of the website (the contents). Elements are containers for essences (called contents) and can be rendered on page-layouts or in cells. More about <a href="">Elements</a>
 
-In any case the developer splits the content into elements. That means grouping the smallest parts of the website (the contents). Elements are containers for essences (called contents) and can be rendered on page-layouts or in cells. More about Elements »
+<h4>Define Page Layout</h4>
 
-Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about PageLayouts »
+Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about <a href="">PageLayouts</a>
 
-A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about Essences »
+A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about <a href="">Essences</a>
 
-<h3> Generate Partial Views for each Cell & Element </h3>
-<h3> Customize Partial Views for each Cell & Element </h3>
-<h3> Embed Cells & Elements into Layout Pages </h3>
+<h4> Generate Partial Views for each Cell & Element </h4>
+<h4> Customize Partial Views for each Cell & Element </h4>
+<h4> Embed Cells & Elements into Layout Pages </h4>
 
 <h1>How to Install the Alchemy CRM Gem:</h1>
 
@@ -76,7 +76,7 @@ The installing of Alchemy CMS is very easy. You just need to run the gem command
 
 You now have the newest Alchemy CMS gem installed on your system!
 
-<h4>Create a new application</h4>
+<h4>Create a New Application</h4>
 <hr>
 
 The gem provides an executable file that can automagically create new rails applications with a pre-configured Alchemy CMS engine. While the installation process you will get asked about your local development environment. Just follow the instructions.
