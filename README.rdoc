@@ -1,6 +1,7 @@
 #Alchemy CMS Gem
 
-![alchemy_logo](https://cloud.githubusercontent.com/assets/14220315/12628466/4d75c97e-c511-11e5-9be4-ed18cf5b55dd.png)
+
+<img>![alchemy_logo](https://cloud.githubusercontent.com/assets/14220315/12628466/4d75c97e-c511-11e5-9be4-ed18cf5b55dd.png)</img>
 
 What Alchemy CMS Accomplishes:
 
