@@ -6,19 +6,32 @@ What Alchemy CMS Accomplishes:
 
 The Alchemy CMS Gem is a Content Management System (CMS) Framework for Rails. 
 
-While Alchemy CMS has many powerful features, the overall accomplishment of the Gem is that it creates a user centric backend interface to the rails application.  
-
-<img width="1437" alt="screen shot 2016-01-27 at 5 11 10 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630184/47fc071c-c519-11e5-9cca-6f27812112ac.png">
-
-<img width="1377" alt="screen shot 2016-01-27 at 5 10 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630121/ded76a9c-c518-11e5-8ac6-faadf1ac8342.png">
-
-<img width="1329" alt="screen shot 2016-01-27 at 11 13 45 am" src="https://cloud.githubusercontent.com/assets/14220315/12630059/919fb9aa-c518-11e5-85f4-85e88d0fb609.png">
-
-<img width="797" alt="screen shot 2016-01-27 at 5 07 08 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630082/ae27ed72-c518-11e5-9427-850c21199edc.png">
+While Alchemy CMS has many powerful features, the overall accomplishment of the Gem is that it adds a user centric backend interface to rails web applications.  
 
 Simple stated, it enables a web developer to create a custom website that can be maintained by a non-developer. The web developer is in full control of the website's features, markup and styling, and the end user actually manages the content of the site.
 
-This easy to use and intuitive interface is a powerful tool. Some key features including an image gallery
+<h2>Front-End</h2>
+
+<img width="1437" alt="screen shot 2016-01-27 at 5 11 10 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630184/47fc071c-c519-11e5-9cca-6f27812112ac.png">
+
+<h2>Back-End</h2>
+
+<img width="1377" alt="screen shot 2016-01-27 at 5 10 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630121/ded76a9c-c518-11e5-8ac6-faadf1ac8342.png">
+
+This easy to use and intuitive interface is a powerful tool. Some key features including: 
+
+<h3>Library for Images & Files</h3>
+
+<img width="1439" alt="screen shot 2016-01-27 at 5 19 24 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630442/6946661e-c51a-11e5-8a91-f9c7aef5a827.png">
+
+<h3>Easy & Clear Navigation</h3>
+
+<img width="1438" alt="screen shot 2016-01-27 at 5 20 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630453/7de470a2-c51a-11e5-975d-eb1011ff3116.png">
+
+<h3>Simple Content Generation Features</h3>
+
+<img width="1436" alt="screen shot 2016-01-27 at 5 20 29 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630469/9834427a-c51a-11e5-92eb-e65bca743b00.png">
+
 
 
 
@@ -103,3 +116,7 @@ cd YOUR_APP_NAME && rails s
 Open a browser window and navigate to http://localhost:3000. You will be greeted with a screen that is prompting you to create the first user.
 
 Congratulations, you can now access the backend!
+
+<img width="1329" alt="screen shot 2016-01-27 at 11 13 45 am" src="https://cloud.githubusercontent.com/assets/14220315/12630059/919fb9aa-c518-11e5-85f4-85e88d0fb609.png">
+
+<img width="797" alt="screen shot 2016-01-27 at 5 07 08 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630082/ae27ed72-c518-11e5-9427-850c21199edc.png">
