@@ -95,30 +95,24 @@ end
 
 You can mount Alchemy on every route you want. pages, cms, typo3, what ever you want. Most of the time you go with the root route.
 
-Now you need to run bundler for installing the dependencies.
+<strong>$ bundle install</strong> - Run bundler for installing the dependencies.
 
-$ bundle install
-It´s recommended to create the folders Alchemy CMS needs.
+<strong>$ rails generate alchemy:scaffold</strong> - Create the folders Alchemy CMS needs.
 
-$ rails generate alchemy:scaffold
-Copy the database migration files to your application.
+<strong>$rake alchemy:install:migrations</strong> - Copy the database migration files to your application.
 
-$rake alchemy:install:migrations
-Migrate the database to get the table structure.
+<storng>$rake db:migrate</strong> - Migrate the database to get the table structure.
 
-$rake db:migrate
-Seed the database with initial data.
+<strong>$rake alchemy:db:seed</strong> - Seed the database with initial data.
 
-$rake alchemy:db:seed
 You´re done! Alchemy is now available in your Rails project!
 
-4 Running Alchemy CMS!
+<h5>Running Alchemy CMS!</h5>
 
-Now that you have Alchemy CMS successfully installed, let’s move on by creating your first user with administrative privilegs.
+With Alchemy CMS successfully installed, you can create your first user with administrative privilegs.
 
-You just need to start a local ruby server on your development machine.
+<strong>$ cd YOUR_APP_NAME && rails s</strong> - Move into folder and start locatal ruby server.
 
-$ cd YOUR_APP_NAME && rails s
 Open a browser window and navigate to http://localhost:3000. 
 
 You will be greeted with a screen that is prompting you to create the first user.
