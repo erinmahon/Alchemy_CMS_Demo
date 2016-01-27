@@ -6,3 +6,11 @@
   unique: true
   elements: [article]
   autogenerate: [article]
+
+# Add a new page layout for your blog template:
+# The autogenerate attribute allows to define elements 
+# which will be generated automatically, when the user creates a new page in backend.
+- name: blog
+  cells: [blog_column]
+  elements: [blog_title, blog_post]
+  autogenerate: [blog_column, blog_title]

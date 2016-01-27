@@ -17,3 +17,48 @@
     type: EssenceRichtext
     default: :article_text
     hint: true
+
+# Blog Title Element
+# Blog should have unique title
+# Contains title and text attributes
+# Essencetext - Simple Text
+# Default attribute provides the preset value
+- name: blog_title
+  unique: true 
+  contents:
+  - name: title
+    type: EssenceText
+    default: Blog
+  - name: text
+    type: EssenceText
+    default: This is my blog. It's awesome.
+    
+# Blog Post Element
+# Contains image, date, title, author, text attributes
+# The title is represented by blog_post_title
+# Its just a text, so we took EssenceText as type
+# Below settings we use linkable: true, because the user should be able to choose a link for the title of the blog post.
+# The meta data link author and creation date corresponds to blog_post_meta
+# The blog_post_intro_text & the main content blog_post_content get the type EssenceRichtext, 
+# since the user likes to add multiline paragraphs.
+# The blog_post_image is of type EssencePicture. This will empower the user to add an image.
+- name: blog_post
+  contents:
+  - name: blog_post_title
+    type: EssenceText
+    default: Blog Post Title
+    settings:
+      linkable: true
+  - name: blog_post_meta
+    type: EssenceText
+    default: "Written by John Smith on August 12, 2012"
+  - name: blog_post_intro_text
+    type: EssenceRichtext
+  - name: blog_post_image
+    type: EssencePicture
+  - name: blog_post_content
+    type: EssenceRichtext
+
+
+
+

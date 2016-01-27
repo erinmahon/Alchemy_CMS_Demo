@@ -1,0 +1,7 @@
+<div id="header">
+	<%- cache(element) do -%>
+	  <%= element_view_for(element, tag: 'h1') do |el| -%>
+	  <%= el.render :title %> <br><small><%= el.render :text %></small>
+	  <%- end -%>
+	<%- end -%>
+</div>
