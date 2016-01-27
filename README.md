@@ -1,5 +1,8 @@
 #Alchemy CMS Gem
 
+![alchemy_logo](https://cloud.githubusercontent.com/assets/14220315/12629971/25d36424-c518-11e5-9f42-69579a716d5d.png)
+
+
 What Alchemy CMS Accomplishes:
 
 The Alchemy CMS Gem is a Content Management System (CMS) Framework for Rails. 
