@@ -2,8 +2,6 @@
 
 ![alchemy_logo](https://cloud.githubusercontent.com/assets/14220315/12629971/25d36424-c518-11e5-9f42-69579a716d5d.png)
 
-What Alchemy CMS Accomplishes:
-
 The Alchemy CMS Gem is a Content Management System (CMS) Framework for Rails. 
 
 While Alchemy CMS has many powerful features, the overall accomplishment of the Gem is that it adds a user centric backend interface to rails web applications.  
@@ -18,7 +16,7 @@ Simple stated, it enables a web developer to create a custom website that can be
 
 <img width="1377" alt="screen shot 2016-01-27 at 5 10 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630121/ded76a9c-c518-11e5-8ac6-faadf1ac8342.png">
 
-This easy to use and intuitive interface is a powerful tool. Some key features including: 
+This easy to use and intuitive interface is a powerful tool. Some key user interface features include: 
 
 <h3>Library for Images & Files</h3>
 
@@ -32,32 +30,40 @@ This easy to use and intuitive interface is a powerful tool. Some key features i
 
 <img width="1436" alt="screen shot 2016-01-27 at 5 20 29 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630469/9834427a-c51a-11e5-92eb-e65bca743b00.png">
 
+From the development side, Alchemy CMS also offers valuable features including:
+<ul>
+<li><strong>Flexible Storing Architecture</strong>- Alchemy stores content. Unlike many other CMS’s that store a whole page body with complete html markup, Alchemy only stores unformatted text, ids of objects (like attachments and pictures) and only some richtext content in the database. No html markup, no css, no styling, no layout. Just pure content.</li>
+<li><strong>Partial Rendering</strong> - Alchemy strongly uses the Rails partial rendering mechanism. It has no own templating language and no special files.</li>
+</ul>
 
-
-
-It comes with an extreme flexible content storing architecture
+The general process for deveopers is as follows:
 
 1) Concept & Structure - Breakdown the Layout into Cells, Elements, and Essences
+
+![alchemycms_core_concepts](https://cloud.githubusercontent.com/assets/14220315/12630752/ee70a272-c51b-11e5-8677-3c641aa3cfc6.png)
 
 When working with Alchemy CMS the very first thing the webdeveloper conceptually does is splitting the website´s layout into different types (called page layouts).
 
 Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about PageLayouts »
 
+2) Define Cells & Elements
+
 After that the developer will look deeper to the content and will perhaps split the pages into cells. Cells can be rendered on page-layouts and are acting as containers for elements. More about Cells »
+3) Define Page Layout
 
 In any case the developer splits the content into elements. That means grouping the smallest parts of the website (the contents). Elements are containers for essences (called contents) and can be rendered on page-layouts or in cells. More about Elements »
 
+Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about PageLayouts »
+
 A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about Essences »
 
-2) Define Cells & Elements
-3) Definen Page Layout
 4) Generate Partial Views for each Cell & Element
 5) Customize Partial Views for each Cell & Element
 6) Embed Cells & Elements into Layout Pages
 
-How to Install the Alchemy CRM Gem:
+<h1>How to Install the Alchemy CRM Gem:</h1>
 
-Installation
+<h3>Installation</h3>
 
 The installing of Alchemy CMS is very easy. You just need to run the gem command.
 
