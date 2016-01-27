@@ -8,8 +8,7 @@ The Alchemy CMS Gem is a Content Management System (CMS) Framework for Rails.
 
 While Alchemy CMS has many powerful features, the overall accomplishment of the Gem is that it creates a user centric backend interface to the rails application.  
 
-<img width="1377" alt="screen shot 2016-01-27 at 5 10 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630121/ded76a9c-c518-11e5-8ac6-faadf1ac8342.png">
-
+<img width="1437" alt="screen shot 2016-01-27 at 5 11 10 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630184/47fc071c-c519-11e5-9cca-6f27812112ac.png">
 
 <img width="1377" alt="screen shot 2016-01-27 at 5 10 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630121/ded76a9c-c518-11e5-8ac6-faadf1ac8342.png">
 
