@@ -67,7 +67,7 @@ A content is the smallest part in Alchemy and refers to one of the essence-types
 
 The installing of Alchemy CMS is very easy. You just need to run the gem command.
 
-$ gem install alchemy_cms
+<strong>$ gem install alchemy_cms</strong>
 
 You now have the newest Alchemy CMS gem installed on your system!
 
@@ -75,17 +75,17 @@ You now have the newest Alchemy CMS gem installed on your system!
 
 The gem provides an executable file that can automagically create new rails applications with a pre-configured Alchemy CMS engine. While the installation process you will get asked about your local development environment. Just follow the instructions.
 
-$ alchemy new YOUR_APP_NAME
+<strong>$ alchemy new YOUR_APP_NAME</strong>
 
 The installer creates a database, migrates the tables and also seeds them. After finishing, your application is ready to start!
 
 <h4>Install into an Existing Rails Application</h4>
 If you already have an existing Rails application, you can require the Alchemy CMS gem in your app.
 
-Add these Gems to Gemfile.
+Add these Gems to Gemfile:
 
-gem 'alchemy_cms'
-gem 'alchemy-devise'
+	gem 'alchemy_cms'
+	gem 'alchemy-devise'
 
 Since Alchemy CMS is a mountable engine, you need to define the mountpoint in your config/routes.rb file.
 
@@ -107,7 +107,7 @@ You can mount Alchemy on every route you want. pages, cms, typo3, what ever you 
 
 You´re done! Alchemy is now available in your Rails project!
 
-<h5>Running Alchemy CMS!</h5>
+<h4>Running Alchemy CMS!</h4>
 
 With Alchemy CMS successfully installed, you can create your first user with administrative privilegs.
 
