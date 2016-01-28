@@ -134,5 +134,5 @@ You will be greeted with a screen that is prompting you to create the first user
 <img width="797" alt="screen shot 2016-01-27 at 5 07 08 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630082/ae27ed72-c518-11e5-9427-850c21199edc.png">
 
 <h2>Resources</h2>
-<a href"http://guides.alchemy-cms.com/edge/index.html">Alchemy CMS Guide</a>
+<a href="http://guides.alchemy-cms.com/edge/index.html">Alchemy CMS Guide</a><br>
 <a href="https://github.com/AlchemyCMS/alchemy_cms">Alchemy CMS GitHub</a>
