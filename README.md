@@ -71,11 +71,12 @@ A content is the smallest part in Alchemy and refers to one of the essence-types
 
 <h3>Installation Assumptions</h3>
 
-The <a href="http://www.ruby-lang.org/en/downloads/" target="blank">Ruby</a> programming language
-The dependency manager <a href="http://bundler.io/" target="blank">Bundler</a>
-At least one of these databases: <a href="http://dev.mysql.com/downloads/mysql/">MySQL</a>, or <a href="http://www.sqlite.org/download.html" target="blank">SQLite</a>
-The image processor <a href="http://www.imagemagick.org/script/install-source.php" target="blank">ImageMagick</a>
-(Alchemy CMS needs at least version 6.4 of ImageMagick)
+<ol>
+	<li>The <a href="http://www.ruby-lang.org/en/downloads/" target="blank">Ruby</a> programming language</li>
+	<li>The dependency manager <a href="http://bundler.io/" target="blank">Bundler</a></li>
+	<li>At least one of these databases: <a href="http://dev.mysql.com/downloads/mysql/">MySQL</a>, or <a href="http://www.sqlite.org/download.html" target="blank">SQLite</a></li>
+	<li>The image processor <a href="http://www.imagemagick.org/script/install-source.php" target="blank">ImageMagick</a> (Alchemy CMS needs at least version 6.4 of ImageMagick)</li>
+</ol>
 
 <h3>Installation</h3>
 
