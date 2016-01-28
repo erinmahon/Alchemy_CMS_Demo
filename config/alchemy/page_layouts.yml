@@ -1,15 +1,10 @@
-# == This file defines the page layouts for new pages.
-#
+# This file defines the page layouts for new pages.
 # For further informations please see http://guides.alchemy-cms.com/create_page_layouts.html
-
-- name: index
-  unique: true
-  elements: [article]
-  autogenerate: [article]
 
 # Add a new page layout for your blog template:
 # The autogenerate attribute allows to define elements 
 # which will be generated automatically, when the user creates a new page in backend.
+
 - name: blog
   cells: [blog_column, left_side_bar]
   elements: [blog_title, blog_post, categories_block]

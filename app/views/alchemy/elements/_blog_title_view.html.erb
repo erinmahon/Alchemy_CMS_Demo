@@ -1,5 +1,10 @@
+<!-- front end view for blog title element -->
+<!-- created div for styling of element -->
 <div id="header">
+<!-- cache element essences for fast content delivery -->
+<!-- this will cache all page layout partials where cells and elements are rendered on -->
 	<%- cache(element) do -%>
+<!-- render essences of element in h1 tag-->
 	  <%= element_view_for(element, tag: 'h1') do |el| -%>
 	  <%= el.render :title %> <br><small><%= el.render :text %></small>
 	  <%- end -%>

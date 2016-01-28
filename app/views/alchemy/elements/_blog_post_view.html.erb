@@ -1,6 +1,11 @@
+<!-- front end view for blog post element -->
+<!-- created div for styling of blog post -->
 <div id="blog_post">
+<!-- cache element essences for fast content delivery -->
+<!-- this will cache all page layout partials where cells and elements are rendered on -->
   <%- cache(element) do -%>
     <%= element_view_for(element) do |el| -%>
+<!-- render essences of element -->
         <%= el.render :blog_post_image %>
         <h3><%= el.render :blog_post_title %></h3>
         <h5><%= el.render :blog_post_meta %></h5>

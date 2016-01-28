@@ -1,5 +1,10 @@
+<!-- front end view for categories block element -->
+<!-- created div for styling of element -->
 <div id="categories">
+<!-- cache element essences for fast content delivery -->
+<!-- this will cache all page layout partials where cells and elements are rendered on -->
 	<%- cache(element) do -%>
+<!-- render essences of element -->
 	  <%= element_view_for(element) do |el| -%>
 	    <h2><%= el.render :categories_headline %></h2>
 	    	<%- element.contents.where(name: ['category']).each do |content| -%>
