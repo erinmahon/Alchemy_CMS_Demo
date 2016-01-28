@@ -56,8 +56,15 @@ A content is the smallest part in Alchemy and refers to one of the essence-types
 Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about <a href="http://guides.alchemy-cms.com/edge/page_layouts.html">PageLayouts</a>
 
 <h4><li>Generate Partial Views for each Cell & Element</li></h4>
+	$ rails g alchemy elements --skip
+
+Creates views and editor partials according to the element definiton in elements.yml
+<br>
+Partials are stored in app/views/alchemy/elements/
+
 <h4><li>Customize Partial Views for each Cell & Element</li></h4>
 <h4><li>Embed Cells & Elements into Layout Pages</li></h4>
+Create new page layout views (_blog.html.erb) in app/views/alchemy/page_layouts
 <br>
 <h3>Some Valuable Development Features Include:</h3>
 <hr>
