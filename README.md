@@ -46,16 +46,14 @@ When working with Alchemy CMS the very first thing the webdeveloper conceptually
 <h4><li>Define Cells, Elements & Essences</li></h4>
 
 After that the developer will look deeper to the content and will perhaps split the pages into cells. Cells can be rendered on page-layouts and are acting as containers for elements. More about <a href="http://guides.alchemy-cms.com/edge/cells.html">Cells</a>
-
+<br>
 In any case the developer splits the content into elements. That means grouping the smallest parts of the website (the contents). Elements are containers for essences (called contents) and can be rendered on page-layouts or in cells. More about <a href="http://guides.alchemy-cms.com/edge/elements.html">Elements</a>
-
+<br>
 A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about <a href="http://guides.alchemy-cms.com/edge/essences.html">Essences</a>
 
 <h4><li>Define Page Layout</li></h4>
 
 Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about <a href="http://guides.alchemy-cms.com/edge/page_layouts.html">PageLayouts</a>
-
-A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about <a href="">Essences</a>
 
 <h4><li>Generate Partial Views for each Cell & Element</li></h4>
 <h4><li>Customize Partial Views for each Cell & Element</li></h4>
