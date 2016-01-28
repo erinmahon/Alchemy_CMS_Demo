@@ -44,13 +44,13 @@ This easy to use and intuitive interface is a powerful tool.
 <hr>
 <ol>
 
-<li><h4>Concept & Structure - Breakdown the Layout into Cells, Elements, and Essences</h4></li>
+<h4><li>Concept & Structure - Breakdown the Layout into Cells, Elements, and Essences</li></h4>
 
 ![alchemycms_core_concepts](https://cloud.githubusercontent.com/assets/14220315/12630752/ee70a272-c51b-11e5-8677-3c641aa3cfc6.png)
 
 When working with Alchemy CMS the very first thing the webdeveloper conceptually does is splitting the website´s layout into different types (called page layouts). Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties.
 
-<h4>Define Cells, Elements & </h4>
+<h4><li>Define Cells, Elements & Essences</li></h4>
 
 After that the developer will look deeper to the content and will perhaps split the pages into cells. Cells can be rendered on page-layouts and are acting as containers for elements. More about <a href="http://guides.alchemy-cms.com/edge/cells.html">Cells</a>
 
@@ -58,15 +58,15 @@ In any case the developer splits the content into elements. That means grouping 
 
 A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about <a href="http://guides.alchemy-cms.com/edge/essences.html">Essences</a>
 
-<h4>Define Page Layout</h4>
+<h4><li>Define Page Layout</li></h4>
 
 Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about <a href="http://guides.alchemy-cms.com/edge/page_layouts.html">PageLayouts</a>
 
 A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about <a href="">Essences</a>
 
-<h4> Generate Partial Views for each Cell & Element </h4>
-<h4> Customize Partial Views for each Cell & Element </h4>
-<h4> Embed Cells & Elements into Layout Pages </h4>
+<h4><li>Generate Partial Views for each Cell & Element</li></h4>
+<h4><li>Customize Partial Views for each Cell & Element</li></h4>
+<h4><li>Embed Cells & Elements into Layout Pages</li></h4>
 
 <h1>How to Install the Alchemy CRM Gem:</h1>
 
@@ -125,7 +125,7 @@ With Alchemy CMS successfully installed, you can create your first user with adm
 
 Open a browser window and navigate to <a href="http://localhost:3000">http://localhost:3000</a> 
 
-You will be greeted with a screen that is prompting you to create the first user.
+You will be greeted with a screen that is prompting you to create the first user:
 
 <img width="1329" alt="screen shot 2016-01-27 at 11 13 45 am" src="https://cloud.githubusercontent.com/assets/14220315/12630059/919fb9aa-c518-11e5-85f4-85e88d0fb609.png">
 
