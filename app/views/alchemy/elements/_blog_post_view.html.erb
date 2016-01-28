@@ -1,16 +1,12 @@
 <div id="blog_post">
   <%- cache(element) do -%>
     <%= element_view_for(element) do |el| -%>
-
- 
         <%= el.render :blog_post_image %>
         <h3><%= el.render :blog_post_title %></h3>
         <h5><%= el.render :blog_post_meta %></h5>
         <p><%= el.render :blog_post_intro_text %></p>
- 
-</div>
-
     <%- end -%>
   <%- end -%>
+</div>
 
 
