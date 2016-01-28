@@ -69,6 +69,14 @@ A content is the smallest part in Alchemy and refers to one of the essence-types
 
 <h1>How to Install the Alchemy CRM Gem:</h1>
 
+<h3>Installation Assumptions</h3>
+
+The <a href="http://www.ruby-lang.org/en/downloads/" target="blank">Ruby</a> programming language
+The dependency manager <a href="http://bundler.io/" target="blank">Bundler</a>
+At least one of these databases: <a href="http://dev.mysql.com/downloads/mysql/">MySQL</a>, or <a href="http://www.sqlite.org/download.html" target="blank">SQLite</a>
+The image processor <a href="http://www.imagemagick.org/script/install-source.php" target="blank">ImageMagick</a>
+(Alchemy CMS needs at least version 6.4 of ImageMagick)
+
 <h3>Installation</h3>
 
 The installing of Alchemy CMS is very easy. You just need to run the gem command.
@@ -120,7 +128,7 @@ You´re done! Alchemy is now available in your Rails project!
 
 With Alchemy CMS successfully installed, you can create your first user with administrative privilegs.
 
-<strong>$ cd YOUR_APP_NAME && rails s</strong> - Move into folder and start locatal ruby server.
+<strong>$ cd YOUR_APP_NAME && rails s</strong> - Move into folder and start local ruby server.
 
 Open a browser window and navigate to <a href="http://localhost:3000">http://localhost:3000</a> 
 
