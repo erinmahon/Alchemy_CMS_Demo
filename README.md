@@ -38,7 +38,7 @@ This easy to use and intuitive interface is a powerful tool.
 
 <h4><li>Concept & Structure - Breakdown the Layout into Cells, Elements, and Essences</li></h4>
 
-![alchemycms_core_concepts](https://cloud.githubusercontent.com/assets/14220315/12630752/ee70a272-c51b-11e5-8677-3c641aa3cfc6.png)
+![alchemycms_core_concepts](https://cloud.githubusercontent.com/assets/14220315/12649162/58c3584c-c5ab-11e5-971b-6ebd0999e2c8.png)
 
 When working with Alchemy CMS the very first thing the webdeveloper conceptually does is splitting the website´s layout into different types (called page layouts). Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties.
 
