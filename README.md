@@ -32,14 +32,6 @@ This easy to use and intuitive interface is a powerful tool.
 
 <img width="1436" alt="screen shot 2016-01-27 at 5 20 29 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630469/9834427a-c51a-11e5-92eb-e65bca743b00.png">
 
-<h3>Some Valuable Development Features Include:</h3>
-<hr>
-
-<ul>
-<li><strong>Flexible Storing Architecture</strong>- Alchemy stores content. Unlike many other CMS’s that store a whole page body with complete html markup, Alchemy only stores unformatted text, ids of objects (like attachments and pictures) and only some richtext content in the database. No html markup, no css, no styling, no layout. Just pure content.</li><br>
-<li><strong>Partial Rendering</strong> - Alchemy strongly uses the Rails partial rendering mechanism. It has no own templating language and no special files.</li>
-</ul>
-
 <h2>The General Process for Developers</h2>
 <hr>
 <ol>
@@ -67,6 +59,13 @@ A content is the smallest part in Alchemy and refers to one of the essence-types
 <h4><li>Generate Partial Views for each Cell & Element</li></h4>
 <h4><li>Customize Partial Views for each Cell & Element</li></h4>
 <h4><li>Embed Cells & Elements into Layout Pages</li></h4>
+
+<h3>Some Valuable Development Features Include:</h3>
+<hr>
+<ul>
+<li><strong>Flexible Storing Architecture</strong>- Alchemy stores content. Unlike many other CMS’s that store a whole page body with complete html markup, Alchemy only stores unformatted text, ids of objects (like attachments and pictures) and only some richtext content in the database. No html markup, no css, no styling, no layout. Just pure content.</li><br>
+<li><strong>Partial Rendering</strong> - Alchemy strongly uses the Rails partial rendering mechanism. It has no own templating language and no special files.</li>
+</ul>
 
 <h1>How to Install the Alchemy CRM Gem:</h1>
 
