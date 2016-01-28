@@ -59,7 +59,7 @@ A content is the smallest part in Alchemy and refers to one of the essence-types
 <h4><li>Generate Partial Views for each Cell & Element</li></h4>
 <h4><li>Customize Partial Views for each Cell & Element</li></h4>
 <h4><li>Embed Cells & Elements into Layout Pages</li></h4>
-
+<br>
 <h3>Some Valuable Development Features Include:</h3>
 <hr>
 <ul>
