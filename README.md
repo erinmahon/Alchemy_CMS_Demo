@@ -6,7 +6,7 @@ The Alchemy CMS Gem is a Content Management System (CMS) Framework for Rails.
 
 While Alchemy CMS has many powerful features, the overall accomplishment of the Gem is that it adds a user centric backend interface to rails web applications.  
 
-Simple stated, it enables a web developer to create a custom website that can be maintained by a non-developer. The web developer is in full control of the website's features, markup and styling, and the end user actually manages the content of the site.
+Simply stated, it enables a web developer to create a custom website that can be maintained by a non-developer. The web developer is in full control of the website's features, markup and styling, and the end user actually manages the content of the site.
 
 <h2>Front-End</h2>
 
@@ -17,7 +17,7 @@ This easy to use and intuitive interface is a powerful tool.
 
 <img width="1377" alt="screen shot 2016-01-27 at 5 10 11 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630121/ded76a9c-c518-11e5-8ac6-faadf1ac8342.png">
 
-<h3>Some key user interface features include:</h3>
+<h3>Some Key User Interface Features Include:</h3>
 <hr>
 
 <h4>Library for Images & Files</h4>
@@ -32,7 +32,7 @@ This easy to use and intuitive interface is a powerful tool.
 
 <img width="1436" alt="screen shot 2016-01-27 at 5 20 29 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630469/9834427a-c51a-11e5-92eb-e65bca743b00.png">
 
-<h3>Some valuable development features include:</h3>
+<h3>Some Valuable Development Features Include:</h3>
 <hr>
 
 <ul>
@@ -50,15 +50,17 @@ This easy to use and intuitive interface is a powerful tool.
 
 When working with Alchemy CMS the very first thing the webdeveloper conceptually does is splitting the website´s layout into different types (called page layouts). Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties.
 
-<h4>Define Cells & Elements</h4>
+<h4>Define Cells, Elements & </h4>
 
-After that the developer will look deeper to the content and will perhaps split the pages into cells. Cells can be rendered on page-layouts and are acting as containers for elements. More about <a href="">Cells</a>
+After that the developer will look deeper to the content and will perhaps split the pages into cells. Cells can be rendered on page-layouts and are acting as containers for elements. More about <a href="http://guides.alchemy-cms.com/edge/cells.html">Cells</a>
 
-In any case the developer splits the content into elements. That means grouping the smallest parts of the website (the contents). Elements are containers for essences (called contents) and can be rendered on page-layouts or in cells. More about <a href="">Elements</a>
+In any case the developer splits the content into elements. That means grouping the smallest parts of the website (the contents). Elements are containers for essences (called contents) and can be rendered on page-layouts or in cells. More about <a href="http://guides.alchemy-cms.com/edge/elements.html">Elements</a>
+
+A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about <a href="http://guides.alchemy-cms.com/edge/essences.html">Essences</a>
 
 <h4>Define Page Layout</h4>
 
-Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about <a href="">PageLayouts</a>
+Every page which is structurally different to other, should get its own page-layout. A page-layout is a html template with specified properties. More about <a href="http://guides.alchemy-cms.com/edge/page_layouts.html">PageLayouts</a>
 
 A content is the smallest part in Alchemy and refers to one of the essence-types Alchemy CMS provides (EssenceText, EssencePicure, EssenceRichtext, …). More about <a href="">Essences</a>
 
@@ -130,3 +132,7 @@ You will be greeted with a screen that is prompting you to create the first user
 <h3>Congratulations, you can now access the backend!</h3>
 
 <img width="797" alt="screen shot 2016-01-27 at 5 07 08 pm" src="https://cloud.githubusercontent.com/assets/14220315/12630082/ae27ed72-c518-11e5-9427-850c21199edc.png">
+
+<h2>Resources</h2>
+<a href"http://guides.alchemy-cms.com/edge/index.html">Alchemy CMS Guide</a>
+<a href="https://github.com/AlchemyCMS/alchemy_cms">Alchemy CMS GitHub</a>
